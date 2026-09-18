@@ -1,0 +1,6 @@
+{
+  "default_student.pkl": "1106e1864b468a6a90422ee801746794b5db342dd34b8809efaee18cd9dfc8f7",
+  "feature_columns.pkl": "fb06f79028b0aa6477b0443b008b8fe45b88dd5eeca3dffe049c337f4560d094",
+  "logistic_regression_model.pkl": "a71838f6956ae6dbc8fca95714214a6fcde93d55818a8911f80855c00e202672",
+  "scaler.pkl": "c95b1b4169d7d7fa96a85520b9a66216e9bd5c3797cbacb2d9d57c0026670029"
+}
