@@ -16,7 +16,7 @@ A Logistic Regression classification project and Gradio prototype for educationa
 
 **Repository:** [student-dropout-risk-prediction](https://github.com/Ahsan-Qamar-Dev/student-dropout-risk-prediction)
 
-**Live application:** Deployment pending Render setup and public verification.
+**Live application:** Deployment pending Render account card verification and public testing.
 
 ## Project Overview
 
@@ -179,6 +179,8 @@ For Render, create a Web Service from this public GitHub repository with Python 
 
 For a Hugging Face account with an eligible plan, create a public Gradio Space and upload all repository files, including the four `.pkl` artifacts and preprocessing/checksum JSON files. See the [Spaces configuration reference](https://huggingface.co/docs/hub/spaces-config-reference) and [Gradio quickstart](https://www.gradio.app/guides/quickstart).
 
-**Current public deployment status:** awaiting deployment and verification. A live URL will be added only after the public application loads and successfully produces a prediction.
+**Current public deployment status:** the free ($0/month) Render service is configured, but creation is blocked by the account's card-verification prompt. Render states that verification uses a temporary $1 authorization hold. No live application is claimed yet. A live URL will be added only after the public application loads and successfully produces a prediction.
+
+Local validation passed: all seven automated tests, startup and artifact loading, three HTTP API predictions, invalid-input rejection, and a browser prediction (2.63%, Not Dropout, LOW RISK). All original artifact hashes match the supplied files.
 
 See [SCREENSHOTS.md](SCREENSHOTS.md) for the four internship evidence captures.
